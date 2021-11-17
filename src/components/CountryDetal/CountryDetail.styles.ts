@@ -11,13 +11,17 @@ export const Country = styled.article`
   }
 `;
 
-export const CountryRow = styled.div`
+interface CountryRowProps {
+  alignItems?: string;
+}
+
+export const CountryRow = styled.div<CountryRowProps>`
   margin: 0 -${({ theme }) => theme.spacing[3]};
   margin-bottom: ${({ theme }) => theme.spacing[4]};
 
   @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
     display: flex;
-    align-items: center;
+    align-items: ${(props) => props.alignItems ? props.alignItems : 'center'};
   }
 `;
 

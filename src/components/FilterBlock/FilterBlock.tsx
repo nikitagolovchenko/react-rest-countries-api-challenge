@@ -45,12 +45,14 @@ const FilterBlock: FC = () => {
           value={search}
           onChange={handleSearch}
           placeholder='Search for a country...'
+          aria-label='Search for a country'
         />
       </InputHolder>
       <MySelect
         options={setOptions()}
         onChange={handleSelect}
         placeholder='Filter by Region'
+        aria-label='Filter by Region'
       />
     </FilterBlockInner>
   );

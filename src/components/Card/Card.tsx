@@ -15,7 +15,7 @@ const Card: FC<Country> = props => {
   return (
     <CardItem onClick={() => navigate(`country/${props.alpha3Code.toLowerCase()}`)}>
       <CardImgHolder>
-        <CardImg src={props.flag} />
+        <CardImg src={props.flag} alt={props.name} />
       </CardImgHolder>
       <CardBody>
         <CardTitle>{props.name}</CardTitle>

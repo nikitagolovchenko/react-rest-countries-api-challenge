@@ -18,11 +18,11 @@ const CountryDetail: FC<CountryDetailProps> = props => {
     <Country>
       <CountryRow>
         <CountryCol>
-          <CountryImg src={props.flag} />
+          <CountryImg src={props.flag} alt={props.name} />
         </CountryCol>
         <CountryCol>
           <CountryTitle>{props.name}</CountryTitle>
-          <CountryRow>
+          <CountryRow alignItems="flex-start">
             <CountryCol>
               <DescriptionList>
                 <DescriptionItem>

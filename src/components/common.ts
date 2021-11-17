@@ -90,3 +90,10 @@ export const BackLink = styled.button`
     margin-right: 5px;
   }
 `;
+
+interface H1Props {
+  marginBottom?: number;
+}
+export const H1 = styled.h1<H1Props>`
+  margin-bottom: ${(props) => !isNaN(props.marginBottom as number) ? props.marginBottom : props.theme.spacing[3]};
+`;

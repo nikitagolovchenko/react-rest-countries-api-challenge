@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Container } from '../common';
+import { Container, H1 } from '../common';
 import ToggleThemeBtn from '../ToggleThemeBtn/ToggleThemeBtn';
 import { HeaderBlock, HeaderInner, HeaderLogo } from './Header.styles';
 
@@ -8,7 +8,9 @@ const Header: FC = () => {
     <HeaderBlock>
       <Container>
         <HeaderInner>
-          <HeaderLogo to='/'>Where in the world?</HeaderLogo>
+          <H1 marginBottom={0}>
+            <HeaderLogo to='/'>Where in the world?</HeaderLogo>
+          </H1>
           <ToggleThemeBtn />
         </HeaderInner>
       </Container>
