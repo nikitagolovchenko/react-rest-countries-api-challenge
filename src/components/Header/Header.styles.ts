@@ -15,9 +15,13 @@ export const HeaderInner = styled.div`
 
 export const HeaderLogo = styled(Link)`
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: ${({theme}) => theme.typography.fontWeight.extraBold};
   cursor: pointer;
   color: currentColor;
   text-decoration: none;
+
+  @media(min-width: ${({theme}) => theme.breakpoints.tablet}) {
+    font-size: 24px;
+  }
 `;

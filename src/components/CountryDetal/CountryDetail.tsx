@@ -65,7 +65,7 @@ const CountryDetail: FC<CountryDetailProps> = props => {
             </CountryCol>
           </CountryRow>
           <DescriptionList>
-            <DescriptionItem>
+            <DescriptionItem response>
               <Strong>Border Countries:</Strong>
               <BtnGroup>
                 {props.countryBorders.map(border => (

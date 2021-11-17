@@ -23,17 +23,31 @@ export const Main = styled.main`
 
 export const DescriptionList = styled.ul``;
 
-export const DescriptionItem = styled.li`
+interface DescriptionItemProps {
+  response?: boolean;
+}
+
+export const DescriptionItem = styled.li<DescriptionItemProps>`
   margin-bottom: 10px;
-  display: flex;
+  display: ${props => (props.response ? 'block' : 'flex')};
   align-items: center;
 
-  &:last-child {
-    margin-bottom: 0;
+  @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    display: flex;
   }
 
   Strong {
-    margin-right: 5px;
+    margin-right: ${props => (props.response ? '0' : '5px')};
+    margin-bottom: ${props => (props.response ? '10px' : '0')};
+
+    ${props => props.response && {
+      display: 'block',
+    }}
+
+    @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
+      margin-bottom: 0;
+      margin-right: 5px;
+    }
   }
 `;
 

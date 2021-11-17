@@ -3,8 +3,14 @@ import Select from 'react-select';
 
 export const FilterBlockInner = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 
 export const InputHolder = styled.div`
@@ -52,7 +58,7 @@ export const MySelect = styled(Select)`
     box-shadow: ${({ theme }) => theme.boxShadow};
     background-color: ${({ theme }) => theme.colors.secondary};
   }
-  
+
   .css-qc6sy-singleValue {
     color: ${({ theme }) => theme.colors.primary};
   }

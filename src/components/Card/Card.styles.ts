@@ -25,7 +25,7 @@ export const CardImg = styled.img`
 `;
 
 export const CardBody = styled.div`
-  padding: 20px 20px 30px;
+  padding: 20px;
   border-radius: 0 0 ${({ theme }) => theme.borderRadius} ${({ theme }) => theme.borderRadius};
 `;
 
