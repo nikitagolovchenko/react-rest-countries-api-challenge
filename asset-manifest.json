@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/nikitagolovchenko/react-rest-countries-api-challenge/static/js/main.7cfb4fd1.chunk.js",
-    "main.js.map": "/nikitagolovchenko/react-rest-countries-api-challenge/static/js/main.7cfb4fd1.chunk.js.map",
-    "runtime-main.js": "/nikitagolovchenko/react-rest-countries-api-challenge/static/js/runtime-main.0a59bd6f.js",
-    "runtime-main.js.map": "/nikitagolovchenko/react-rest-countries-api-challenge/static/js/runtime-main.0a59bd6f.js.map",
-    "static/css/2.60a1853b.chunk.css": "/nikitagolovchenko/react-rest-countries-api-challenge/static/css/2.60a1853b.chunk.css",
-    "static/js/2.ecfb07c6.chunk.js": "/nikitagolovchenko/react-rest-countries-api-challenge/static/js/2.ecfb07c6.chunk.js",
-    "static/js/2.ecfb07c6.chunk.js.map": "/nikitagolovchenko/react-rest-countries-api-challenge/static/js/2.ecfb07c6.chunk.js.map",
-    "index.html": "/nikitagolovchenko/react-rest-countries-api-challenge/index.html",
-    "static/css/2.60a1853b.chunk.css.map": "/nikitagolovchenko/react-rest-countries-api-challenge/static/css/2.60a1853b.chunk.css.map",
-    "static/js/2.ecfb07c6.chunk.js.LICENSE.txt": "/nikitagolovchenko/react-rest-countries-api-challenge/static/js/2.ecfb07c6.chunk.js.LICENSE.txt"
+    "main.js": "/react-rest-countries-api-challenge/static/js/main.7cfb4fd1.chunk.js",
+    "main.js.map": "/react-rest-countries-api-challenge/static/js/main.7cfb4fd1.chunk.js.map",
+    "runtime-main.js": "/react-rest-countries-api-challenge/static/js/runtime-main.b88b5889.js",
+    "runtime-main.js.map": "/react-rest-countries-api-challenge/static/js/runtime-main.b88b5889.js.map",
+    "static/css/2.60a1853b.chunk.css": "/react-rest-countries-api-challenge/static/css/2.60a1853b.chunk.css",
+    "static/js/2.41cd1e6b.chunk.js": "/react-rest-countries-api-challenge/static/js/2.41cd1e6b.chunk.js",
+    "static/js/2.41cd1e6b.chunk.js.map": "/react-rest-countries-api-challenge/static/js/2.41cd1e6b.chunk.js.map",
+    "index.html": "/react-rest-countries-api-challenge/index.html",
+    "static/css/2.60a1853b.chunk.css.map": "/react-rest-countries-api-challenge/static/css/2.60a1853b.chunk.css.map",
+    "static/js/2.41cd1e6b.chunk.js.LICENSE.txt": "/react-rest-countries-api-challenge/static/js/2.41cd1e6b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a59bd6f.js",
+    "static/js/runtime-main.b88b5889.js",
     "static/css/2.60a1853b.chunk.css",
-    "static/js/2.ecfb07c6.chunk.js",
+    "static/js/2.41cd1e6b.chunk.js",
     "static/js/main.7cfb4fd1.chunk.js"
   ]
 }
